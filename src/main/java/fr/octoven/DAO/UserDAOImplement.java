@@ -31,7 +31,7 @@ public class UserDAOImplement implements ModifsDAO<User, User>{
 		try {
 			
 			//preparing statement and executing query to find the selected user
-			pstmt = ConnecteurDB.connect().prepareStatement("SELECT * FROM User WHERE pseudo=? AND mdp=?");
+			pstmt = ConnecteurDB.connect().prepareStatement("SELECT * FROM user WHERE pseudo=? AND mdp=?");
 			pstmt.setString(1, u.getPseudo());
 			pstmt.setString(2, u.getMdp());
 			rs = pstmt.executeQuery();
