@@ -13,7 +13,7 @@ import fr.octoven.beans.User;
 /**
  * Servlet implementation class FirstContact
  */
-@WebServlet(urlPatterns= {"", "/quiça"}, name="FirstContact")
+@WebServlet(urlPatterns= {"", "/kissa"}, name="FirstContact")
 public class FirstContact extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
