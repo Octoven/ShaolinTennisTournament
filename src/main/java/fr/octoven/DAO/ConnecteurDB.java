@@ -18,7 +18,7 @@ public class ConnecteurDB {
 //		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tournoishaolin?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC", "root", "");
 		
 		//alwaysdata Server configuration
-		Connection con = DriverManager.getConnection("jdbc:mysql:mysql-octoven.alwaysdata.net/octoven_tournoishaolin?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC", "octoven", "1#8ba7A65sT0_");
+		Connection con = DriverManager.getConnection("jdbc:mysql:mysql-octoven.alwaysdata.net:3306/octoven_tournoishaolin?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC", "octoven", "1#8ba7A65sT0_");
 		
 		return con;
 		
