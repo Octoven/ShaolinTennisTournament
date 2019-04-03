@@ -1,0 +1,129 @@
+html {
+  height: 100%; font-size:initial;
+}
+
+body {
+    background-image: url(../img/tb.JPG); 
+    background-color: #ff6600; 
+    background-size: cover;
+    height: 100%;
+}
+
+/* Trials and errors - En-t�te adaptative */
+
+header {
+    background-color: rgba(225,220,30,.6);
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: .25rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header img{
+    float: left;
+    height: 10vh;
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav{
+    height: 10vh;
+    text-align: center;
+    margin:auto;
+    list-style: none;
+}
+
+nav ul{
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;    
+    margin: 0;
+}
+
+nav li{
+	display: inline-block;
+    text-align: center;
+    padding: 1vw;
+    margin: 0 5vw 0 0;
+}
+
+nav a:hover {
+    color: red;
+    text-shadow: .1rem .1rem .1rem black;
+    font-size: 150%;    
+}
+
+nav a{
+	vertical-align: middle;
+	text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:rgba(128,128,128,0.5);
+    color: yellow;
+    text-align: center;
+}
+
+main {
+    border: .15rem solid black;
+    background-color: rgba(225,220,30,.35);
+    width:60vw;
+/*     height: 45vh; */
+    padding: 1rem;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h2 {
+    display: block;
+    color: yellow;
+    margin-top: 0;
+    margin-bottom: 5%;
+    text-align:center;
+    text-shadow: 1px 1px 1px black;
+}
+
+h3{
+	display: none;
+}
+
+#joueurs{
+	border-collapse: collapse;
+}
+
+#joueurs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+#joueurs td, #joueurs th {
+    border: .15rem solid black;
+    padding: 8px;
+    width: 30vw;
+}
+
+#joueurs td {
+	text-align: center;
+	color: yellow;
+	text-shadow: 1px 1px 1px black;
+	background-color:rgba(128,128,128,0.5);
+}

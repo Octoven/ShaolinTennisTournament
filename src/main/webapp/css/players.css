@@ -1,0 +1,230 @@
+html {
+  height: 100%; font-size:initial;
+}
+
+body {
+    background-image: url(../img/tb.JPG); 
+    background-color: #ff6600; 
+    background-size: cover;
+    height: 100%;
+}
+
+/* Trials and errors - En-t�te adaptative */
+
+header {
+    background-color: rgba(225,220,30,.6);
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: .25rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header img{
+    float: left;
+    height: 10vh;
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav{
+    height: 10vh;
+    text-align: center;
+    margin:auto;
+    list-style: none;
+}
+
+nav ul{
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;    
+    margin: 0;
+}
+
+nav li{
+	display: inline-block;
+    text-align: center;
+    padding: 1vw;
+    margin: 0 5vw 0 0;
+}
+
+nav a:hover {
+    color: red;
+    text-shadow: .1rem .1rem .1rem black;
+    font-size: 150%;    
+}
+
+nav a{
+	vertical-align: middle;
+	text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:rgba(128,128,128,0.5);
+    color: yellow;
+    text-align: center;
+}
+
+main {
+    border: .15rem solid black;
+    background-color: rgba(225,220,30,.35);
+    width:45vw;
+    height: 45vh;
+    padding: 1rem;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+    border-radius: 10px;
+}
+
+h2 {
+    display: block;
+    color: yellow;
+    margin-top: 0;
+    margin-bottom: 5%;
+    text-align:center;
+    text-shadow: 1px 1px 1px black;
+}
+
+label{
+	display: inline-block;
+	color:yellow;
+	text-shadow: 1px 1px 1px black;
+	width:20%;
+	float: left;
+}
+
+main select, main input{
+	display: inline-block;
+	width: 10rem;
+}
+
+main select, main input{
+	display: inline-block;
+	width: 10rem;
+}
+
+select, input{
+	display: inline-block;
+}
+
+#idnumber {
+    display: block;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 15%;
+}
+
+#fName {
+    display: block;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 25%;
+}
+
+#sName {
+    display: block;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 40%;
+}
+
+#sex {
+    display: block;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 55%;
+}
+
+#country {
+    display: block;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 70%;
+}
+
+#record {
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    margin: auto;
+    width: 40%;
+    background-color: red;
+    border: 0px solid red;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px black;
+    color: yellow;
+    padding: 0.15rem;
+    cursor: pointer;
+}
+
+#update {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 85%;
+    margin: auto;
+    width: 40%;
+    background-color: red;
+    border: 0px solid red;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px black;
+    color: yellow;
+    padding: 0.15rem;
+    cursor: pointer;
+}
+
+section {
+	width:30vw;
+    height: 45vh;
+    position: absolute;
+    top: 25vh;
+    right: 5vw;
+}
+
+section h3{
+	display: none;
+}
+
+#joueurs{
+	border-collapse: collapse;
+}
+
+#joueurs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+#joueurs td, #joueurs th {
+    border: .15rem solid black;
+    padding: 8px;
+    width: 30vw;
+}
+
+#joueurs td {
+	text-align: center;
+	color: yellow;
+	text-shadow: 1px 1px 1px black;
+	background-color:rgba(128,128,128,0.5);
+}
