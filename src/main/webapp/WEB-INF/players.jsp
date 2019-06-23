@@ -329,10 +329,10 @@
 
 						<tr>
 						
-							<td>${Player.player_id}</td>
-							<td>${Player.prenom} ${Player.nom}</td>
-							<td>${Player.sexe}</td>
-							<td>${Player.pays}</td>
+							<td><c:out value="${Player.player_id}"/></td>
+							<td><c:out value="${Player.prenom} ${Player.nom}"/></td>
+							<td><c:out value="${Player.sexe}"/></td>
+							<td><c:out value="${Player.pays}"/></td>
 							<td><input type="radio" name="select" value="${Player.player_id}" /></td>
 
 						</tr>
